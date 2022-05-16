@@ -1,0 +1,52 @@
+*{
+    --primary-color: #8095dd;
+    --black: #151515;
+    --border: #0011ff;
+}
+
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: var(--primary-color);
+    background-image: url("https://i.pinimg.com/originals/15/e4/28/15e4288f841e0f3c05bfeabf0a7e06ec.jpg");
+}
+
+.container{
+    background-color: var(--black);
+	max-width: 90%;
+	margin: 2% auto;
+	overflow: auto;
+	min-height: fit-content;
+	border: 2px solid var(--red);
+	padding: 35px;
+	border-radius: 10px;
+    opacity: 0.9;
+}
+
+h1{
+    color: var(--primary-color);
+    font-weight: 900;
+    font-size: 50px;
+    text-decoration: underline;
+    text-shadow: 2px 0 0 var(--border), -2px 0 0 var(--border), 0 2px 0 var(--border), 0 -2px 0 var(--border), 1px 1px var(--border), -1px -1px 0 var(--border), 1px -1px 0 var(--border), -1px 1px 0 var(--border);
+}
+
+p{
+    text-shadow: 0.4px 0 0 var(--border), -0.4px 0 0 var(--border), 0 0.4px 0 var(--border), 0 -0.4px 0 var(--border), 0.2px 0.2px var(--border), -0.2px -0.2px 0 var(--border), 0.2px -0.2px 0 var(--border), -0.2px 0.2px 0 var(--border);
+}
+
+.info{
+    color: var(--primary-color);
+    line-height: 50px;
+    font-size: 30px;
+}
+
+.contact{
+    color: var(--primary-color);
+    font-size: 10px;
+}
+
+.button1{
+    width: fit-content;
+    height: fit-content;
+}
